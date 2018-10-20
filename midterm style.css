@@ -8,6 +8,8 @@
 }
 .item3 {
 	grid-area: right;
+	border: 1px solid gray;
+	background: #efefef;
 }
 .item4 {
 	grid-area: footer;
@@ -15,15 +17,12 @@
 .grid-container {
 	display: grid;
 	grid-template-areas:
-	'menu main main main main main main main main main main main main main main main main main main main main main main main main main main main main right'
-	'menu main main main main main main main main main main main main main main main main main main main main main main main main main main main main right'
-	'footer footer footer footer footer footer footer footer footer footer footer footer footer footer footer footer footer footer footer footer footer footer footer footer footer footer footer footer footer right'
-	'footer footer footer footer footer footer footer footer footer footer footer footer footer footer footer footer footer footer footer footer footer footer footer footer footer footer footer footer footer right';
-	grid-gap: 0px;
-	padding: 0px;
+	'menu main main main main main main main main main main main main main main main main main main main main main main main main main main main main main main main main main main main main main main main main main main main main main main main main main main main main main right'
+	'menu main main main main main main main main main main main main main main main main main main main main main main main main main main main main main main main main main main main main main main main main main main main main main main main main main main main main main right'
+	'footer footer footer footer footer footer footer footer footer footer footer footer footer footer footer footer footer footer footer footer footer footer footer footer footer footer footer footer footer footer footer footer footer footer footer footer footer footer footer footer footer footer footer footer footer footer footer footer footer footer footer footer footer footer right'
+	'footer footer footer footer footer footer footer footer footer footer footer footer footer footer footer footer footer footer footer footer footer footer footer footer footer footer footer footer footer footer footer footer footer footer footer footer footer footer footer footer footer footer footer footer footer footer footer footer footer footer footer footer footer footer right';
 }
 .grid-container > div {
-	padding: 0px 0;
 	font-family: sans-serif;
 	font-size: 0.875em;
 }
@@ -37,14 +36,9 @@ p, h3 {
 h1, h2 {
 
 }
-.contentscontent {
-	background: #efefef;
-	font-family: sans-serif;
-	font-size: 0.875em;
-	border: 1px solid gray;
-	padding: 0px 12px 0px 0px;
-	width: 175px;
-}
 .contentstitle {
+	text-align: center;
+}
+.sidebartitle {
 	text-align: center;
 }
